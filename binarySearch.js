@@ -1,4 +1,3 @@
-const arr = [1, 3, 5, 7, 9];
 
 const binarySearch = (arr, val) => {
   let low = 0;
@@ -26,7 +25,3 @@ const binarySearch = (arr, val) => {
   
   return null;
 };
-
-console.log(
-  binarySearch(arr, 3)
-);

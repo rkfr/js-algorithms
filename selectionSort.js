@@ -1,4 +1,3 @@
-const unsortedArr = [5, 3, 6, 2, 10];
 
 const findSmallest = (arr) => {
   let smallest = arr[0];
@@ -29,7 +28,3 @@ const selectionSort = (arr) => {
 
   return sortedArr;
 };
-
-console.log(
-  selectionSort(unsortedArr)
-);
